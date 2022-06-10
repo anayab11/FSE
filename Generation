@@ -1,0 +1,78 @@
+package fse;
+import java.util.*;
+
+public class Generation {
+	
+	private int id;
+	private String name;
+	private ArrayList<Ability> abilities;
+	private ArrayList<Name> names;
+	private NamedAPIResource main_region;
+	private ArrayList<NamedAPIResource> moves;
+	private ArrayList<NamedAPIResource> pokemon_species;
+	private ArrayList<Type> types;
+	private ArrayList<NamedAPIResource> version_group;
+	
+
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public ArrayList<Ability> getAbilities() {
+		return abilities;
+	}
+	public void setAbilities(ArrayList<Ability> abilities) {
+		this.abilities = abilities;
+	}
+	public ArrayList<Name> getNames() {
+		return names;
+	}
+	public void setNames(ArrayList<Name> names) {
+		this.names = names;
+	}
+	public NamedAPIResource getMain_region() {
+		return main_region;
+	}
+	public void setMain_region(NamedAPIResource main_region) {
+		this.main_region = main_region;
+	}
+	public ArrayList<NamedAPIResource> getMoves() {
+		return moves;
+	}
+	public void setMoves(ArrayList<NamedAPIResource> moves) {
+		this.moves = moves;
+	}
+	public ArrayList<NamedAPIResource> getPokemon_species() {
+		return pokemon_species;
+	}
+	public void setPokemon_species(ArrayList<NamedAPIResource> pokemon_species) {
+		this.pokemon_species = pokemon_species;
+	}
+	public ArrayList<Type> getTypes() {
+		return types;
+	}
+	public void setTypes(ArrayList<Type> types) {
+		this.types = types;
+	}
+	public ArrayList<NamedAPIResource> getVersion_group() {
+		return version_group;
+	}
+	public void setVersion_group(ArrayList<NamedAPIResource> version_group) {
+		this.version_group = version_group;
+	}
+
+	
+	
+	
+	
+	
+	
+}
